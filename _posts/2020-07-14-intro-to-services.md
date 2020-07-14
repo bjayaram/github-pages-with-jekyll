@@ -1,3 +1,7 @@
+---
+title: "Introducing Able3 Chart Services"
+date: 2020-07-14
+---
 AppSheet allows you to use a workflow rule with a webhook action to post to any web service on the Internet. This is a powerful way to integrate your AppSheet app with a variety of popular services like Zapier, Slack, Twitter, Twilio, and IFTTT among others. Currently AppSheet apps can use a webhook as a means of invoking a "fire and forget" operation using the web service. This means that a webhook cannot make dynamic changes to the app data which would change the behavior of the app in real time.
 
 As opposed to other services like Zapier, Twitter and other REST APIs, Able3 REST API services are designed in a slightly different way. They leverage a combination of AppSheet actions which can launch external sites and Google Apps Scripts which can have endpoints to return data managed within your apps.
