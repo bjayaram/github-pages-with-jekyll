@@ -8,7 +8,7 @@ As opposed to other services like Zapier, Twitter and other REST APIs, Able3 RES
 
 The figure below illustrates this architecture.
 
-![Able3 Architecture](/github-pages-with-jekyll/images/callback-arch.png)
+![Able3 Architecture]({{ site.url }}/images/callback-arch.png)
 
 To use external web services, in general, you must set up a developer account with the web service which assigns you an API key. However, as Able3 Chart Services (ACS) are still in beta testing, all that is needed is to register your app for using the service.
 
