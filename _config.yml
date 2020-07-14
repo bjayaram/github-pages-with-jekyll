@@ -5,7 +5,7 @@ email: jayaram@able3ventures.com
 description: > # this means to ignore newlines until "baseurl:"
   Documentation site for Able3 Chart Services and other integrations for AppSheet users.
 
-BASE_PATH: github-pages-with-jekyll
+BASE_PATH: /github-pages-with-jekyll
 
 # social links
 twitter_username: bjayaram # DO NOT include the @ character, or else the build will fail!
