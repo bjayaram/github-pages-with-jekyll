@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg viewBox="0 0 840 499" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2" />
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc>seqdiag {
+  App  -&gt; Able3Service [leftnote = "press action"] ;
+  Able3Service -&gt; GoogleAppScript [label = "GET /index.html"];
+  GoogleAppScript  --&gt; datasource [label = "READ data"];
+  GoogleAppScript  &lt;-- datasource ;
+  Able3Service &lt;-- GoogleAppScript [label = "return Json"];
+  Able3Service -&gt; App [leftnote = "view chart"] ;
+}
+</desc>
+  <rect fill="rgb(0,0,0)" height="344" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="135" y="133" />
+  <rect fill="rgb(0,0,0)" height="44" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="139" y="433" />
+  <rect fill="rgb(0,0,0)" height="344" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="327" y="133" />
+  <rect fill="rgb(0,0,0)" height="180" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="519" y="196" />
+  <rect fill="rgb(0,0,0)" height="50" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="711" y="261" />
+  <polygon fill="rgb(0,0,0)" points="27,126 115,126 123,134 123,141 27,141 27,126" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <polygon fill="rgb(0,0,0)" points="39,426 115,426 123,434 123,441 39,441 39,426" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="75" y="46" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="267" y="46" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="459" y="46" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="651" y="46" />
+  <path d="M 136 80 L 136 487" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="moccasin" height="344" stroke="rgb(0,0,0)" width="8" x="132" y="127" />
+  <rect fill="moccasin" height="44" stroke="rgb(0,0,0)" width="8" x="136" y="427" />
+  <path d="M 328 80 L 328 487" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="moccasin" height="344" stroke="rgb(0,0,0)" width="8" x="324" y="127" />
+  <path d="M 520 80 L 520 487" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="moccasin" height="180" stroke="rgb(0,0,0)" width="8" x="516" y="190" />
+  <path d="M 712 80 L 712 487" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="moccasin" height="50" stroke="rgb(0,0,0)" width="8" x="708" y="255" />
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="72" y="40" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="18" x="136.0" y="66">App</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="264" y="40" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="72" x="328.0" y="66">Able3Service</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="456" y="40" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="90" x="520.0" y="66">GoogleAppScript</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="648" y="40" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="60" x="712.0" y="66">datasource</text>
+  <path d="M 144 127 L 320 127" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="312,123 320,127 312,131" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(255,182,193)" points="24,120 112,120 120,128 120,135 24,135 24,120" stroke="rgb(0,0,0)" />
+  <path d="M 112 120 L 112 128" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 112 128 L 120 128" fill="none" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="72" x="68.0" y="133">press action</text>
+  <path d="M 336 190 L 512 190" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="504,186 512,190 504,194" stroke="rgb(0,0,0)" />
+  <path d="M 528 255 L 704 255" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="696,251 704,255 696,259" stroke="rgb(0,0,0)" />
+  <path d="M 528 305 L 704 305" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="536,301 528,305 536,309" stroke="rgb(0,0,0)" />
+  <path d="M 336 370 L 512 370" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="344,366 336,370 344,374" stroke="rgb(0,0,0)" />
+  <path d="M 148 427 L 320 427" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="156,423 148,427 156,431" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(255,182,193)" points="36,420 112,420 120,428 120,435 36,435 36,420" stroke="rgb(0,0,0)" />
+  <path d="M 112 420 L 112 428" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 112 428 L 120 428" fill="none" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="60" x="74.0" y="433">view chart</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="90" x="385.0" y="188">GET /index.html</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="54" x="559.0" y="253">READ data</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="66" x="479.0" y="368">return Json</text>
+</svg>
